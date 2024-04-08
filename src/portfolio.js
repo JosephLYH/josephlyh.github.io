@@ -18,14 +18,14 @@ const about = {
 }
 
 const projects = [
-  // {
-  //   name: 'Project',
-  //   description:
-  //     '',
-  //   stack: [''],
-  //   sourceCode: '',
-  //   livePreview: '',
-  // }
+  {
+    name: 'Court Booking Bot with Captcha Solver',
+    description:
+      'A bot that automates the booking of courts. It is able to solve simple captchas and book courts automatically.',
+    stack: ['Python, Tensorflow'],
+    sourceCode: 'https://github.com/JosephLYH/HKUCSE_Captcha_Breaking',
+    livePreview: '',
+  }
 ]
 
 const skills = [
