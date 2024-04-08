@@ -27,7 +27,8 @@
 }
 
 .about .btn--outline {
-  margin-right: 1em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
   text-transform: capitalize;
 }
 
