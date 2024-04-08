@@ -73,7 +73,7 @@ main {
 
 .link--nav {
   color: var(--clr-fg);
-  text-transform: lowercase;
+  text-transform: capitalize;
   font-weight: 500;
 }
 
