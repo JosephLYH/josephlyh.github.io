@@ -42,4 +42,6 @@ const skills = [
   'AWS',
 ]
 
-export { header, about, projects, skills }
+const useContact = null
+
+export { header, about, projects, skills, useContact }

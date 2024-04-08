@@ -1,5 +1,7 @@
 import GitHubIcon from '@material-ui/icons/GitHub'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
+import EmailIcon from '@material-ui/icons/Email';
+import SmartphoneIcon from '@material-ui/icons/Smartphone';
 import { about } from '../../portfolio'
 import './About.css'
 
@@ -18,13 +20,13 @@ const About = () => {
       <p className='about__desc'>{description && description}</p>
 
       <div className='about__contact center'>
-        {resume && (
+      {resume && (
           <a href={resume} aria-label='resume'>
-            <span type='button' className='btn btn--outline'>
-              Resume
-            </span>
-          </a>
-        )}
+          <span type='button' className='btn btn--outline'>
+            Resume
+          </span>
+        </a>
+      )}
 
         {social && (
           <>
@@ -45,6 +47,26 @@ const About = () => {
                 className='link link--icon'
               >
                 <LinkedInIcon />
+              </a>
+            )}
+
+            {social.email && (
+              <a
+                href={`mailto:${social.email}`}
+                aria-label='email'
+                className='link link--icon'
+              >
+                <EmailIcon />
+              </a>
+            )}
+
+            {social.mobile && (
+              <a
+                href={`tel:${social.mobile}`}
+                aria-label='mobile'
+                className='link link--icon'
+              >
+                <SmartphoneIcon />
               </a>
             )}
           </>
