@@ -1,11 +1,9 @@
 const header = {
-  // all the properties are optional - can be left empty or deleted
   homepage: 'https://josephlyh.github.io',
   title: 'JL.',
 }
 
 const about = {
-  // all the properties are optional - can be left empty or deleted
   name: 'Lam Yuen Ho Joseph',
   role: 'Software Engineer',
   description:
