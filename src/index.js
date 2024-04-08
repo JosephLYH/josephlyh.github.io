@@ -1,14 +1,11 @@
 import { render } from 'react-dom'
+import App from './App'
 import { ThemeProvider } from './contexts/theme'
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import './index.css'
 
 render(
   <ThemeProvider>
     <App />
   </ThemeProvider>,
   document.getElementById('root')
-);
-
-reportWebVitals();
+)

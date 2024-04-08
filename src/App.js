@@ -26,7 +26,7 @@ const App = () => {
       <ScrollToTop />
       <Footer />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
