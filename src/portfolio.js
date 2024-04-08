@@ -12,6 +12,8 @@ const about = {
   social: {
     linkedin: 'https://www.linkedin.com/in/lam-yuen-ho-joseph',
     github: 'https://github.com/JosephLYH',
+    email: 'yuenholam@gmail.com',
+    mobile: '+85291726708'
   },
 }
 
@@ -40,8 +42,4 @@ const skills = [
   'AWS',
 ]
 
-const contact = {
-  email: 'yuenholam@gmail.com',
-}
-
-export { header, about, projects, skills, contact }
+export { header, about, projects, skills }
