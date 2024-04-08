@@ -23,7 +23,7 @@
     "eject": "react-scripts eject",
     "lint": "eslint .",
     "format": "prettier --write \"**/*.+(js|jsx|json|css|md)\"",
-    "deploy": "gh-pages -d build",
+    "deploy": "npm run build && gh-pages -d build",
     "prepush": "npm run lint && npm run test && npm run deploy"
   },
   "browserslist": {
