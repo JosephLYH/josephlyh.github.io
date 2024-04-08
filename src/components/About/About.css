@@ -27,6 +27,7 @@
 
 .about .btn--outline {
   margin-right: 1em;
+  text-transform: capitalize;
 }
 
 @media (max-width: 600px) {
