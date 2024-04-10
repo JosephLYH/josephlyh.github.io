@@ -1,7 +1,7 @@
 import GitHubIcon from '@material-ui/icons/GitHub'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
-import EmailIcon from '@material-ui/icons/Email';
-import SmartphoneIcon from '@material-ui/icons/Smartphone';
+import EmailIcon from '@material-ui/icons/Email'
+import SmartphoneIcon from '@material-ui/icons/Smartphone'
 import { about } from '../../portfolio'
 import './About.css'
 
@@ -20,7 +20,7 @@ const About = () => {
       <p className='about__desc'>{description && description}</p>
 
       {resume && (
-        <a href={resume} aria-label='resume' className='about__contact' >
+        <a href={resume} aria-label='resume' className='about__contact'>
           <span type='button' className='btn btn--outline'>
             Resume
           </span>
