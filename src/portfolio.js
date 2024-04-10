@@ -28,6 +28,16 @@ const projects = [
   }
 ]
 
+const blog = [
+  {
+    id: 0,
+    title: 'Hello World!',
+    timestamp: '1712762673839',
+    description: 'This is my first blog post!',
+    content: 'This is my first blog post! I will be sharing my thoughts and experiences here. Stay tuned!'
+  }
+]
+
 const skills = [
   'Git',
   'SQL',
@@ -44,4 +54,4 @@ const skills = [
 
 const useContact = null
 
-export { header, about, projects, skills, useContact }
+export { header, about, projects, skills, useContact, blog }
