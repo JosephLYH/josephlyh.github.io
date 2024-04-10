@@ -31,3 +31,11 @@
 .post .link--icon {
   margin-left: 0.5em;
 }
+
+.timestamp {
+  /* set the text to be half transparent */
+  margin: 0.5em;
+  font-weight: 500;
+  font-size: 0.8rem;
+  color: var(--clr-grey);
+}
