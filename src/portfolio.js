@@ -13,7 +13,7 @@ const about = {
     linkedin: 'https://www.linkedin.com/in/lam-yuen-ho-joseph',
     github: 'https://github.com/JosephLYH',
     email: 'yuenholam@gmail.com',
-    mobile: '+85291726708'
+    mobile: '+85291726708',
   },
 }
 
@@ -25,17 +25,18 @@ const projects = [
     stack: ['Python, Tensorflow'],
     sourceCode: 'https://github.com/JosephLYH/HKUCSE_Captcha_Breaking',
     livePreview: '',
-  }
+  },
 ]
 
 const blog = [
   {
     id: 0,
+    timestamp: '2024-04-10T22:01:04+08:00',
     title: 'Hello World!',
-    timestamp: '1712762673839',
     description: 'This is my first blog post!',
-    content: 'This is my first blog post! I will be sharing my thoughts and experiences here. Stay tuned!'
-  }
+    content:
+      'This is my first blog post! I will be sharing my thoughts and experiences here. Stay tuned!',
+  },
 ]
 
 const skills = [
