@@ -1,3 +1,4 @@
+import uniqid from 'uniqid'
 import './BlogContainer.css'
 
 const BlogContainer = ({ post }) => (
@@ -10,7 +11,11 @@ const BlogContainer = ({ post }) => (
 
     <p className='post__description'>{post.description}</p>
 
-    <p className='post__content'>{post.content}</p>
+    {post.content.map((paragraph) => (
+      <p key={uniqid()} className='post__content'>
+        {paragraph}
+      </p>
+    ))}
   </div>
 )
 

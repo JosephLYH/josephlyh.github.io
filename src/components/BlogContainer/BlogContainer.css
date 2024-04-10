@@ -12,6 +12,7 @@
 
 .post__content {
   margin-top: 1em;
+  text-align: justify;
 }
 
 .post__description {
