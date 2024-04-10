@@ -5,6 +5,7 @@ import MenuIcon from '@material-ui/icons/Menu'
 import CloseIcon from '@material-ui/icons/Close'
 import { ThemeContext } from '../../contexts/theme'
 import { projects, skills, useContact } from '../../portfolio'
+import posts from '../../blogPosts'
 import './Navbar.css'
 
 const Navbar = () => {
@@ -51,6 +52,18 @@ const Navbar = () => {
               className='link link--nav'
             >
               Contact
+            </a>
+          </li>
+        ) : null}
+
+        {posts ? (
+          <li className='nav__list-item'>
+            <a
+              href='#blog'
+              onClick={toggleNavList}
+              className='link link--nav'
+            >
+              Blog
             </a>
           </li>
         ) : null}
