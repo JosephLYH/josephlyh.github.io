@@ -4,8 +4,7 @@ import WbSunnyRoundedIcon from '@material-ui/icons/WbSunnyRounded'
 import MenuIcon from '@material-ui/icons/Menu'
 import CloseIcon from '@material-ui/icons/Close'
 import { ThemeContext } from '../../contexts/theme'
-import { projects, skills, useContact } from '../../portfolio'
-import posts from '../../blogPosts'
+import { projects, skills, useContact, blog } from '../../portfolio'
 import './Navbar.css'
 
 const Navbar = () => {
@@ -56,7 +55,7 @@ const Navbar = () => {
           </li>
         ) : null}
 
-        {posts ? (
+        {blog ? (
           <li className='nav__list-item'>
             <a
               href='#blog'
