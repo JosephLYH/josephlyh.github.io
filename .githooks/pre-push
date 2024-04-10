@@ -8,6 +8,6 @@ url="$2"
 
 npm run deploy
 if [ $? -ne 0 ]; then
-  echo >&2 "npm run deploy failed, not pushing"
+  echo "npm run deploy failed, not pushing"
   exit 1
 fi
